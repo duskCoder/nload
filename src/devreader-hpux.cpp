@@ -242,7 +242,7 @@ void DevReaderHpux::readFromDevice(DataFrame& dataFrame)
         }
         if(!found)
         {
-            fprintf(stderr, "error: PPA %d not found\n", ppa);
+            fprintf(stderr, "error: PPA %u not found\n", ppa);
             break;
         }
         
